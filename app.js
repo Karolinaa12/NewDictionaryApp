@@ -5,6 +5,7 @@ result.id = "result";
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
-  const search = document.querySelector("#search-word").value;
-  console.log(search);
+  const search = document.querySelector("#search-word");
+  console.log(search.value);
+  search.value = "";
 });
