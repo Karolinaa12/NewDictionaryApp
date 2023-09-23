@@ -14,7 +14,7 @@ div.form-wrapper {
   border-radius: 0.5rem;
 }
 
-input.search-form {
+input.search-input {
   border: none;
   border-bottom: 1px solid black;
   outline: none;
