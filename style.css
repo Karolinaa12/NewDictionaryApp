@@ -32,5 +32,6 @@ button.search-button:hover {
   cursor: pointer;
 }
 
-div.result {
+div.result-wrapper {
+  background-color: aquamarine;
 }
