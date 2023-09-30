@@ -71,5 +71,5 @@ form.addEventListener("submit", function (e) {
     });
 
   //Clearing form after submit
-  //document.querySelector("#search-word").value = "";
+  document.querySelector("#search-word").value = "";
 });

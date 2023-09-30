@@ -6,21 +6,27 @@ body {
 
 div.container {
   padding: 2rem;
-  max-width: 600px;
+  width: 100vh;
 }
 
 div.form-wrapper {
   margin-top: 10rem;
-
+  margin-bottom: 5rem;
   border-radius: 0.5rem;
-  width: 600px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 20fr 1fr;
+  gap: 0.5rem;
 }
 
 input.search-input {
   border: none;
   border-bottom: 1px solid black;
   outline: none;
-  width: 90%;
+
+  padding-bottom: 0.2rem;
 }
 
 button.search-button {
@@ -29,7 +35,6 @@ button.search-button {
   color: inherit;
   font: inherit;
   outline: none;
-  width: 8%;
 }
 
 button.search-button:hover {
