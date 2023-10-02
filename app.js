@@ -9,7 +9,7 @@ result.id = "result";
 result.innerHTML = `<div class="result-wrapper">
 <h3 id="result-word-text"></h3>
 <h5 id="result-word-phonetic"></h5>
-<hr />`;
+`;
 
 //API for dictionary
 const dictAPI = `https://api.dictionaryapi.dev/api/v2/entries/en/`;

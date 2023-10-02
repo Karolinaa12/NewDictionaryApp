@@ -25,9 +25,10 @@ form {
 
 input.search-input {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 0.1rem solid black;
   outline: none;
   font-family: "Mukta", sans-serif;
+  font-size: 1.2rem;
   padding-bottom: 0.2rem;
 }
 
@@ -36,6 +37,7 @@ button.search-button {
   background: none;
   color: inherit;
   font: inherit;
+  font-size: 1.2rem;
   outline: none;
 }
 
@@ -44,4 +46,13 @@ button.search-button:hover {
 }
 
 div.result-wrapper {
+  font-size: 1.5rem;
+}
+
+div.result-wrapper h5 {
+  font-size: 1rem;
+}
+
+div.result-wrapper p {
+  font-size: 1rem;
 }
