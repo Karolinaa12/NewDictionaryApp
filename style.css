@@ -45,6 +45,13 @@ button.search-button:hover {
   cursor: pointer;
 }
 
+button.word-result-audio {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
 div.result-wrapper {
   font-size: 1.5rem;
 }

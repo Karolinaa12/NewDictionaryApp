@@ -8,7 +8,9 @@ const result = document.createElement("div");
 result.id = "result";
 result.innerHTML = `<div class="result-wrapper">
 <h3 id="result-word-text"></h3>
+
 <h5 id="result-word-phonetic"></h5>
+<button class="word-result-audio" onclick="playSound()"><i class="fa-solid fa-volume-high"></i></button>
 `;
 
 //API for dictionary
